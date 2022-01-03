@@ -37,3 +37,11 @@ function binarySearch(){
 }
 binarySearch();
 ```
+## Education
+* University: Samara State University, master's degree in mechanics
+* Courses
+  * HTML and CSS at WebReference
+  * HTML and CSS at [ru.code-basics.com](ru.code-basics.com)
+  * JS at [learn.javascript.ru](learn.javascript.ru)
+## English
+A2 (Pre-Intermediate)
