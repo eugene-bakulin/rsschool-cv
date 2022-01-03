@@ -1,2 +1,2 @@
+<<<<<<< HEAD
 # Eugene Bakulin
-## local ver
