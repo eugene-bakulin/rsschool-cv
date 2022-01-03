@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+    <header>
+        <h1>Welcome!</h1>
+    </header>
+    <nav>
+        <div><a href="index.html">Main page</a></div>
+        <div><a href="https://rs.school/">RS School</a></div>
+        <div><a href="https://community-z.com/">Community-Z</a></div>
+        <div><a href="https://developer.mozilla.org/ru/">MDN Web Docs</a></div>
+    </nav>
+    <main>
+        <div class="div-in-row">
+            <div><img src="avatar.jpg" height="300" alt="Photo"></div>
+            <div>
+                <h2 style="font-size: 40px;">
+                    Eugene Bakulin
+                </h2>
+                <h2>
+                    Briefly about myself
+                </h2>
+                <p>My purpose is to move forward and take a new kind of activity. Perseverance is one of my strong features.</p>
+                <p>I have a nine years of work experience as engineer in machine building undustry, but now I feel an urgent need in something new.</p>
+            </div>
+        </div>
+        <div>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS</li>
+                <li>Java (university course of calculation methods)</li>
+                <li>JS</li>
+                <li>GIT</li>
+                <li>VSCode, IntelliJ IDEA</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Code example</h2>
+            <p>This is the realization of binary search:</p>
+            <pre>
+                let n = prompt("Please enter the upper bound of search array","");
+                let item = prompt("Enter the number for search");
+                let arr = [];
+                function binarySearch(){
+                    for (let i=0; i &lt; n; i++) {
+                        arr[i] = i+1;
+                    }
+                    let low = 0;
+                    let high = arr.length-1;
+                    while (low &lt;= high) {
+                        let mid = Math.floor((low + high) / 2);
+                        if (arr[mid] == item) {
+                            return arr[mid];
+                        } else if (arr[mid] &gt; item) {
+                            high = mid - 1;
+                        } else {
+                            low = mid + 1;
+                        }
+                    }
+                    return -1;
+                }
+                binarySearch();
+            </pre>
+        </div>
+        <div>
+            <h2>Education</h2>
+            <ul>
+                <li>University: Samara State University, master's degree in mechanics</li>
+                <li>Courses:
+                    <ul>
+                        <li>HTML and CSS at WebReference</li>
+                        <li>HTML and CSS at <a href="https://ru.code-basics.com/">ru.code-basics.com</a></li>
+                        <li>JS at <a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>English</h2>
+            <p>A2 (Pre-Intermediate)</p>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h3>
+                Contacts:
+            </h3>
+            <ul>
+                <li>E-mail: <a href="bakulin.eugene@gmail.com">bakulin.eugene@gmail.com</a></li>
+                <li>Phone: +7 927 6874294</li>
+                <li>Discord: Eugene Bakulin#9666</li>
+                <li>GitHub: <a href="https://github.com/eugene-bakulin">https://github.com/eugene-bakulin</a></li>
+            </ul>
+            <p><strong>2022</strong></p>
+        </div>
+        <div>
+            <h3>
+                Thanks to
+            </h3>
+            <a href="https://rs.school/js/"><img width="250" src="https://rs.school/images/rs_school_js.svg" alt="RSSCHOOL!"></a>
+
+        </div>
+    </footer>
+  </body>
+</html>

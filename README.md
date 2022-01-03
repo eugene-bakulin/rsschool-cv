@@ -1,1 +1,1 @@
-# rsschool-cv
+https://eugene-bakulin.github.io/rsschool-cv/
