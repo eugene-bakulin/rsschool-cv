@@ -50,12 +50,14 @@
                     for (let i=0; i &lt; n; i++) {
                         arr[i] = i+1;
                     }
+                    let found = false;
                     let low = 0;
                     let high = arr.length-1;
-                    while (low &lt;= high) {
+                    while ((found == false)&&(low &lt;= high)) {
                         let mid = Math.floor((low + high) / 2);
                         if (arr[mid] == item) {
-                            return arr[mid];
+                            found = true;
+                            console.log("Found! " + arr[mid]);
                         } else if (arr[mid] &gt; item) {
                             high = mid - 1;
                         } else {
@@ -94,7 +96,7 @@
                 <li>Discord: Eugene Bakulin#9666</li>
                 <li>GitHub: <a href="https://github.com/eugene-bakulin">https://github.com/eugene-bakulin</a></li>
             </ul>
-            <p><strong>2022</strong></p>
+            <p><strong>&copy; 2022</strong></p>
         </div>
         <div>
             <h3>
