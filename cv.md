@@ -3,6 +3,7 @@
 * Phone: +7 927 6874294
 * E-mail: [bakulin.eugene@gmail.com](bakulin.eugene@gmail.com "e-mail")
 * Discord: Eugene Bakulin#9666
+* Telegram: https://t.me/eugene_bakulin
 ## Briefly about myself
 Hi! I'm a beginner frontend developer. My technical background includes bachelor degree and master's degree in mechanics obtained in my alma mater - Samara State University.
 
@@ -21,6 +22,7 @@ Now I'm looking for opportunities to brush up on front-end development technique
 * UML
 * Camunda
 * REST, SOAP
+* SQL
 * Figma
 * Miro as program board
 * Postman
