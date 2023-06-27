@@ -1,0 +1,47 @@
+body {
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+header h1 {
+    font-size: 60px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav div {
+    margin: 20px;
+}
+nav div a {
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+main div {
+    margin: 20px;
+}
+.div-in-row {
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer div {
+    margin: 100px;
+}
+
